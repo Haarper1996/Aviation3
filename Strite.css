@@ -1,0 +1,102 @@
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+}
+.button:hover {
+    animation: rainbow 5s infinite;
+    background-color: #45a049;
+}
+
+/* Анімація */
+@keyframes rainbow {
+    0% {
+        background-color: #4CAF50;
+    }
+    20% {
+        background-color: #ff7f00;
+    }
+    40% {
+        background-color: #0000ff;
+    }
+    60% {
+        background-color: #00ff00;
+    }
+    80% {
+        background-color: #ffa500;
+    }
+    100% {
+        background-color: #4CAF50;
+    }
+}
+.button:active {
+    background-color: #3e8e41; 
+}
+div.container {
+    width: 1500px;
+    height: 1000px;
+    background-color: blue;
+}
+
+div.header {
+    width: 600px;
+    height: 50px;
+    background-color: purple;
+}
+
+div.navigation {
+    width: 610px;
+    height: 30px;
+    background-color: yellow;
+}
+
+div.content {
+    width: 1300px;
+    height: 500px;
+    background-color: green;
+}
+
+div.footer {
+    width: 150px;
+    height: 22px;
+    background-color: yellow;
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 5px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    background-color: #f0f0f0;
+    padding: 8px 12px; 
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    color: #ff0000;
+    background-color: #ddd;
+}
+@media (min-width: 1500px) and (max-width: 2000px){h1{font-size:32px !important}}
+@media (min-width: 1000px) and (max-width: 1499.98px){h1{font-size:50px !important}}
+@media (min-width: 400px) and (max-width: 999.98px){h1{font-size:72px !important}}-
+img {
+    border: 2px solid #000;
+    padding: 10px;
+}
