@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Легенди авіації</title>
+<link href="normalize.css" rel="stylesheet" type="text/css" />
+<link href="Strite.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="Some.css">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<style type="text/css"></style>
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<body>
+<div id="date"></div>
+
+    <script src="date.js"></script>
+<div style="width:2000px; height:1200px; background-color:rgb(114, 70, 70); margin: 0 auto;">
+<div style="width:500px; height:45px; background-color:rgb(104, 138, 153); margin: 0 auto;">
+<header>
+<h1>Легенди військової авіації</h1>
+</header>
+</div>
+<nav>
+<ul>
+    <div style="width:883px; height:50px; background-color:rgb(124, 124, 47); margin: 0 auto;">
+        <li><a href="index.html" class="button">Авіація</a></li>
+        <li><a href="AC-130.html" class="button">AC-130</a></li>
+        <li><a href="A-10.html" class="button">A-10</a></li>
+        <li><a href="F-16.html" class="button">F-16</a></li>
+        <li><a href="F-35.html" class="button">F-35</a></li>
+        <li><a href="F-22.html" class="button">F-22</a></li>
+        <li><a href="SU-27.html" class="button">SU-27</a></li>
+        <li><a href="SU-35.html" class="button">SU-35</a></li>
+        <li><a href="Vidgyk.html" class="button">Відгук</a></li>
+        </div>
+</ul>
+</nav>
+<h2>Форма зворотного зв'язку</h2>
+
+<form action="/submit_feedback" method="post"> 
+  <label for="name">Ваше ім'я (необов'язково):</label><br>
+  <input type="text" id="name" name="name"><br><br>
+
+  <label for="email">Ваш email (необов'язково):</label><br>
+  <input type="email" id="email" name="email"><br><br>
+
+  <label for="rating">Оцініть ваш досвід на нашому сайті:</label><br>
+  <select id="rating" name="rating">
+    <option value="1">1 - Дуже погано</option>
+    <option value="2">2 - Погано</option>
+    <option value="3">3 - Задовільно</option>
+    <option value="4">4 - Добре</option>
+    <option value="5">5 - Відмінно</option>
+  </select><br><br>   
+
+
+  <label for="source">Як ви знайшли наш сайт?</label><br>
+  <select id="source" name="source">
+    <option value="search">Пошукова система</option>
+    <option value="social">Соціальні мережі</option>
+    <option value="ads">Реклама</option>
+    <option value="referral">Рекомендація друга</option>
+    <option value="other">Інше</option>
+  </select><br><br>
+
+  <label for="likes">Що вам найбільше сподобалося на нашому сайті?</label><br>
+  <textarea id="likes" name="likes"></textarea><br><br>
+
+  <label for="improvements">Що б ви хотіли покращити на нашому сайті?</label><br>
+  <textarea id="improvements" name="improvements"></textarea><br><br>
+
+  <label for="comments">Будь-які інші коментарі або пропозиції:</label><br>
+  <textarea id="comments" name="comments"></textarea><br><br>
+
+  <input type="submit" value="Надіслати">
+</form> 
+
+</div>
+
+</div>
