@@ -1,0 +1,139 @@
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+}
+.button:hover {
+    animation: rainbow 5s infinite;
+    background-color: #45a049;
+}
+
+/* Анімація */
+@keyframes rainbow {
+    0% {
+        background-color: #4CAF50;
+    }
+    20% {
+        background-color: #ff7f00;
+    }
+    40% {
+        background-color: #0000ff;
+    }
+    60% {
+        background-color: #00ff00;
+    }
+    80% {
+        background-color: #ffa500;
+    }
+    100% {
+        background-color: #4CAF50;
+    }
+}
+.button:active {
+    background-color: #3e8e41; 
+}
+div.container {
+    width: 1500px;
+    height: 1000px;
+    background-color: blue;
+}
+
+div.header {
+    width: 600px;
+    height: 50px;
+    background-color: purple;
+}
+
+div.navigation {
+    width: 610px;
+    height: 30px;
+    background-color: yellow;
+}
+
+div.content {
+    width: 1300px;
+    height: 500px;
+    background-color: green;
+}
+
+div.footer {
+    width: 150px;
+    height: 22px;
+    background-color: yellow;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 5px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    background-color: #f0f0f0;
+    padding: 8px 12px; 
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    color: #ff0000;
+    background-color: #ddd;
+}
+h1, h2 {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800; /* Жирний шрифт для заголовків */
+    text-align: center;
+}
+body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 230px;
+            height: 100%;
+            background-image: url('1234.jpg');
+            background-size: cover; /* Зображення покриває весь екран */
+            background-position: center; /* Центрування зображення */
+            background-repeat: no-repeat; /* Заборонити повторення зображення */
+            background-attachment: fixed;
+}
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600; /* Жирний шрифт для заголовків */
+    text-align: center;
+}
+.center-photo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.my-div {
+    padding: 20px; /* Відступ 20 пікселів з усіх боків */
+}
+.video1 {
+    position: absolute;
+    top: 329.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 700px;
+    height: 450px;
+}
+.text {
+    position: absolute;
+    top: 356.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
