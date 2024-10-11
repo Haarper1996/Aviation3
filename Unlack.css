@@ -123,17 +123,11 @@ h3 {
 .my-div {
     padding: 20px; /* Відступ 20 пікселів з усіх боків */
 }
-.video1 {
-    position: absolute;
-    top: 329.5%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 700px;
-    height: 450px;
+#myVideo {
+    display: block;
+margin:0 auto; /* Зміщуємо відео на 50 пікселів вправо */
+margin-top: -45px;
 }
 .text {
-    position: absolute;
-    top: 356.5%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    margin-top: -25px; /* Відступ зверху */
 }
