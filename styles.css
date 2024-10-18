@@ -1,0 +1,17 @@
+#scrollToTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 17px 25.5px; /* Збільшено розміри в 1,7 рази */
+    background-color: #6c757d; /* Сірий колір кнопки */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 30.6px; /* Збільшено розмір тексту в 1,7 рази */
+    display: none; /* Кнопка спочатку прихована */
+}
+
+#scrollToTopBtn:hover {
+    background-color: #5a6268; /* Темніший сірий при наведенні */
+}
